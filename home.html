@@ -6,29 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brooke | Home | Portfolio</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+
 
     <link rel="shortcut icon" href="media/faviocn/favicon.ico">
+
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="home.html">Home</a>
-                </li>
+        <div class="topnav" id="myTopnav">
+            <a href="home.html" class="active">Home</a>
 
-                <li>
-                    <a href="websites.html">Websites Built</a>
-                </li>
+            <a href="websites.html">Websites Built</a>
 
-                <li>
-                    <a href="graphic.html">Graphic Design</a>
-                </li>
-            </ul>
-        </nav>
+            <a href="graphic.html">Graphic Design</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars">
+                    <img src="media/menu/menuicon.png" alt="menu icon">
+                </i>
+            </a>
+        </div>
     </header>
     <main>
         <div class="home-grid">
@@ -66,6 +66,71 @@
 
             </div>
 
+            <div class="main-section">
+                <section>
+                    <h2>Bio</h2>
+                    <p>I am Brooke Justesen and am a Web Design and Development major. I grew up in an active duty
+                        military family. I currently live in Rexburg Idaho and have been married to my husband, Tyler
+                        for 3 years. We have a sassy cat, and a loyal dog. My husband and I met in Rexburg and are both
+                        attending Brigham Young University-Idaho. <br><br />
+                        I became intrested in web design after tutoring for the WDD 130, Web Fundementals, course at the
+                        school. I have been tutoring with them for two and and half years and have loved every moment of
+                        building websites.
+                    </p>
+                </section>
+                <img class="home-pic-right" src="media/homephotos/tylerandI.jpg" alt="Brooke and Tyler">
+                <section class="hobbies">
+                    <h2>Hobbies</h2>
+                    <p>Along with web design I very much enjoy drawing. I use many different mediums, but the one I use
+                        the most right now is a program on my iPad called "Procreate".
+                        <br><br />
+                        I also enjoy trying new things and learning how to slove problems. Most of all I love my family
+                        and spending time with them.
+                    </p>
+                </section>
+                <img class="home-pic-left" src="media/homephotos/IMG_9246.jpg" alt="Dog and cat">
+
+                <h1 class="ref-tittle">References</h1>
+                
+                <div class="accordion1grid">
+                    <button class="accordion1">Personal</button>
+                    <div class="panel">
+                        <div class="ref1">
+                        <h3>Monte Anderson - PA</h3>
+                        <p>(208) 409-6151</p>
+                    </div>
+                    <div class="ref2">
+                        <h3>Paulette E. Kirkham - Professor</h3>
+                        <p>(208) 227-6780</p>
+                        <p>kirkhamp@byui.edu</p>
+                        <p>
+                        <a href="media/pdf/Recommendation Sister Kirkham.pdf" target="_blank">Letter Of Recommendation</a>
+                    </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion2grid">
+                    <button class="accordion2">Professional</button>
+                    <div class="panel">
+                        <div class="ref3">
+                            <h3>Tevin Ricks - Supervisor of Tutoring department</h3>
+                            <p>(208) 201-1062</p>
+                            <p>rickstr@byui.edu</p>
+                        </div>
+                        <div class="ref4">
+                            <h3>Dale Bogardus - Manager of Outstanding Computer Repair</h3>
+                            <p>(541) 297-5831</p>
+                            <p>dalebogardus@live.com</p>
+                            <p><a href="https://outstandingcomputerrepair.com/" target="_blank">Website</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="workexp">
+                <h1>Work Experience</h1>
+            </section>
 
         </div>
 
@@ -87,7 +152,10 @@
             </a>
         </div>
     </footer>
-    <script src="js/copy-email.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/accordion.js"></script>
+
+
 </body>
 
 </html>
