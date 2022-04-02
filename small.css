@@ -173,7 +173,12 @@ img {
     line-height: 1.7em;
     font-size:1.1em
 }
-
+.bio a{
+    color:#2B3964;
+}
+.bio a:hover{
+    text-decoration: none;
+}
 
 .home-pic-right{
     width: 85%;
