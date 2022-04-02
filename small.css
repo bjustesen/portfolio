@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F0EDEE;
     margin:0;
 }
 
@@ -24,7 +23,7 @@ img {
 /* nav */
 .topnav {
     overflow: hidden;
-    background-color: #F0CE7F;
+    background-color: #6D84B0;
     width: 100%;
 
 }
@@ -32,22 +31,22 @@ img {
 .topnav a {
     float: left;
     display: block;
-    color: #2B3964;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 23px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .topnav a:hover {
-    background-color: #E6AF2E;
+    background-color: #CAD3E2;
     color: black;
 }
 
 .topnav a.activenav {
-    background-color: #E6AF2E;
-    color: black;
+    background-color: #2B3964;
+    color: white;
 }
 
 .topnav .icon img {
@@ -82,26 +81,26 @@ img {
 
 
 /* Home Page */
-.home-grid-2{
-    background-color: #dedede;
-}
+
 .profile-pic {
     border-radius: 100px 200px;
-    width: 75px;
-    margin: .5em 1em;
+    width: 95px;
+    margin: .5em 1.9em;
     margin-top: .9em;
 }
 
 .left-panel section:nth-child(1) h1 {
-    margin-left: -90px;
-    margin-top: 15px;
+    margin-left: -70px;
+    margin-top: 35px;
+    /* padding: 15px; */
 }
 
 .left-panel section:nth-child(1) p {
     grid-column: 1/3;
-    margin-left: 105px;
-    margin-top: -50px;
+    margin-left: 120px;
+    margin-top: -80px;
     margin-bottom: -10px;
+    font-size: 1.2em;
 }
 
 .left-panel section:nth-child(1) {
@@ -117,7 +116,7 @@ img {
     background-color: #3A506B;
     color: #FFFFFF;
     width: 100%;
-    height: 750px;
+    /* height: 750px; */
 }
 
 .left-panel a {
@@ -127,16 +126,21 @@ img {
 .left-panel h2:nth-of-type(1) {
     background-color: #2B3964;
     color: #FFFFFF;
-    padding: 10px;
-    font-size: 1.3em;
+    padding: 15px 30px;
+    font-size: 1.7em;
 }
 
 .left-panel p,
 .left-panel h4 {
-    padding: 0 20px;
+    padding: 0 30px;
     margin: 10px 0;
 }
-
+.left-panel h4 {
+    font-size: 1.4em;
+}
+.left-panel p{
+    font-size: 1.25em;
+}
 .left-panel h1 {
     font-size: 2em;
     padding: 20px;
@@ -148,65 +152,56 @@ img {
     margin-bottom: 20px;
 
 }
-
+.left-panel section:nth-child(4){
+    padding-bottom:20px;
+}
 
 .main-section section {
     padding: 0 15px;
-    color: #2B3964;
-    background-color: #BDCADB;
-    margin-top: 1em;
     text-align: center;
-    border-radius: 5px;
-    box-shadow: 0 0 5px 2px #BDCADB;
+    border-radius: 5px;    
 }
 
 .main-section section h2 {
-    margin: 0;
+    margin-bottom: -20px;
+    padding-top: 10px;
+    font-size: 1.8em;
 }
 
 .main-section p {
-    line-height: 1.4em;
-}
-.main-section section div{
-    padding: 50px 0 50px;
+    padding: 15px;
+    line-height: 1.7em;
+    font-size:1.1em
 }
 
-.home-pic-right,
-.home-pic-left {
-    width: 75%;
+
+.home-pic-right{
+    width: 85%;
     display: block;
     margin: 3em auto;
     box-shadow: 5px 5px 20px #2B3964;
     border-radius: 10px;
-
 }
 
-.home-pic-left {
-    width: 85%;
-}
-.home-pic-right-ipad, .home-pic-left-ipad{   
+.home-pic-left, .home-pic-right-ipad{   
      display: none;
 }
 
-.ref-tittle, .workexp{
+.home-grid-2{
+    background-color: #F2F4F8;
+}
+
+.ref-tittle{
     text-align: center;
-    text-decoration:underline  #E6AF2E;
-    /* border-radius: 10px; */
-    padding: 5px;
-    margin-top: 50px;
-    margin-bottom: 3px;
-
-    /* box-shadow: 0 0 5px 2px #E6AF2E; */
-
-
-
+    text-decoration:underline  #6D84B0;
+    padding-top: 50px;
 }
 
 
 .accordion1,
 .accordion2 {
-    background-color: #F0CE7F;
-    color: #2B3964;
+    background-color: #6D84B0;
+    color:white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -214,7 +209,7 @@ img {
     text-align: left;
     outline: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     transition: 0.4s;
     font-family: 'Montserrat', sans-serif;
     margin-bottom:3px;
@@ -224,8 +219,8 @@ img {
 
 .active,
 .accordion1:hover, .accordion2:hover {
-    background-color: #F6E3B6;
-    color: black;
+    background-color: #2B3B50;
+    color: white;
 }
 
 .panel {
@@ -244,6 +239,7 @@ img {
 .ref4 p,
 .ref4 h3 {
     margin: 10px;
+    font-size:1.3em;
 }
 
 .ref4 h3,
@@ -256,19 +252,35 @@ img {
 }
 
 .ref2 a:hover,
-.ref2 a:active {
-    color: #F6E3B6;
+.ref2 a:active,
+.ref4 a:hover,
+.ref4 a:active {
+    color: #2B3964;
+    text-decoration: none;
 }
+
 .accordion1:after, .accordion2:after {
     content: "\271A"; /* Unicode character for "plus" sign (+) */
     font-size: 23px;
-    color: #2B3964;
+    color: white;
     float: right;
     margin-left: 5px;
   }
   
   .active:after {
     content: "\268A"; /* Unicode character for "minus" sign (-) */
+  }
+  .workexp{
+      margin-top: 50px;
+    text-align: center;
+    text-decoration:underline  #6D84B0;
+  }
+  .job1,.job2,.job3,.job4{
+      padding: 30px;
+      font-size:1.1em;
+  }
+  .job1,.job3{
+      background-color: #CAD3E2;
   }
 
 
@@ -279,11 +291,26 @@ img {
 
 
 /* footer stuff */
+footer p{
+    padding: 25px;
+    font-size: 1.2em;
+    text-align: center;
+}
 .social a:nth-child(2) img {
     height: 40px;
     width: 40px;
 }
+.social a:nth-child(4) img {
+    height: 40px;
+    width: 40px;
+}
 
-.social a {
+.social a, .social {
     text-decoration: none;
+    text-align: center;
+    padding:10px;
+}
+.social{
+    padding: 30px;
+    margin-top:-50px;
 }
