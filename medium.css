@@ -47,6 +47,7 @@
         margin-left: 92px;
         /* margin-right:-15px; */
         margin-top: -45px;
+        font-size: 1em;
     }
 
     .left-panel h4,
@@ -106,6 +107,14 @@
     .accordion1grid,.accordion2grid{
         padding:5px;
     }
+
+
+
+
+
+    /* graphic page */
+    
+
 
 
 }
