@@ -321,6 +321,7 @@ img {
 #myBtnContainer {
     text-align: center;
     padding: 25px 0;
+    
 }
 .graphic-tittle{
     text-align: center;
@@ -334,13 +335,37 @@ img {
     background-color: #CAD3E2;
     border: solid 1px #2B3964;
     color: #2B3964;
-    /* margin:  15px; */
+    display: block;
 }
 #myBtnContainer a:hover {
     background-color: #3A506B;
     color:white;
-    cursor: pointer;
+    
 
+}
+#myBtnContainerother a:hover {
+   
+    background-color: #CAD3E2;
+    border: solid 1px #2B3964;
+    color: #2B3964;
+    border:none;
+    
+    /* margin:  15px; */
+}
+#myBtnContainerother a {
+    background-color: #3A506B;
+    color:white;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Signika', sans-serif;
+    display: block;
+
+
+}
+#myBtnContainerother{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .btn.active {
@@ -403,7 +428,7 @@ img {
     grid-column: 2/3;
    grid-row:5/6;
 }
-.photo-color, .ind{
+.photo-color, .ind, .xd-grid1{
     background-color: #CAD3E2;
     padding: 10px;
 }
@@ -452,26 +477,6 @@ img {
 
 
 /* website page */
-* {box-sizing: border-box;}
-
-.img-zoom-container {
-  position: relative;
-}
-
-.img-zoom-lens {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  /*set the size of the lens:*/
-  width: 100px;
-  height: 100px;
-}
-
-.img-zoom-result {
-  border: 1px solid #d4d4d4;
-  /*set the size of the result div:*/
-  width: 300px;
-  height: 300px;
-}
 
 
 

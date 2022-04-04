@@ -53,5 +53,5 @@ function imageZoom(imgID, resultID) {
       return {x : x, y : y};
     }
   }
-  // Initiate zoom effect:
+// Initiate zoom effect:
 imageZoom("myimage", "myresult");
